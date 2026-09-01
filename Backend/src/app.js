@@ -10,7 +10,7 @@ const songRouter = require("./routes/song.routes");
 app.use(cookie());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://moodify-ae8i.onrender.com",
     credentials: true,
   }),
 );

@@ -4,7 +4,7 @@ import Login from "./features/auth/pages/Login";
 import Home from "./features/home/pages/Home";
 export const router = createBrowserRouter([
   {
-    path: "/register",
+    path: "/",
     element: <Register />,
   },
   {
