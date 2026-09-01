@@ -36,9 +36,9 @@ const getSong = async(req,res)=>{
 
     const {mood}= req.query
 
-    const song = await songModel.findOne({
+    const song = await songModel.find({
         mood
-    })
+    }).limit(1)
 
     res.status(200).json({
         message:"Song fetched successfully",song
