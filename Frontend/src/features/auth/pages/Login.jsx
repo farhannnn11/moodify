@@ -35,7 +35,7 @@ const submitHandler= async(e)=>{
           <button className='primaryButton'>Login</button>
         </form>
 
-        <p>Don't have an account?<Link to="/register">Register</Link></p>
+        <p>Don't have an account?<Link to="/">Register</Link></p>
       </div>
     </main>
   )
